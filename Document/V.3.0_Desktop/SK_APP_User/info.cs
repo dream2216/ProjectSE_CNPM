@@ -40,10 +40,7 @@ namespace SK_APP_User
         private void info_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'sKDataSet2.Login' table. You can move, or remove it, as needed.
-            this.loginTableAdapter.Fill(this.sKDataSet2.Login);
-            // TODO: This line of code loads data into the 'sKDataSet.Info' table. You can move, or remove it, as needed.
-            //this.infoTableAdapter.Fill(this.sKDataSet.Info);
-            //frm2lbl.Text = usernamee;
+            this.loginTableAdapter.Fill(this.sKDataSet2.Login);          
             lblusername.Text = usernamee;
             conn = new SqlConnection(str);
             btnclose.Visible = false;

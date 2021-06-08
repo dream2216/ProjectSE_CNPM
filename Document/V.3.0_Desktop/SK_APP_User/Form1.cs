@@ -96,7 +96,7 @@ namespace SK_APP_User
             }
             else
             {
-                MessageBox.Show("Ngu"); 
+                MessageBox.Show("Check Username or Passwork again"); 
             }
             conn.Close();
         }

@@ -28,15 +28,15 @@ namespace SK_APP_User
             {
                 lblReview.Text = "You're in the underweight range";
             }
-            if (BMIvalue <= 18.5 && BMIvalue < 25)
+            if (BMIvalue >= 18.5 && BMIvalue < 25)
             {
                 lblReview.Text = "you're in the healthy weight range";
             }
-            if (BMIvalue <= 25 && BMIvalue < 30)
+            if (BMIvalue >= 25 && BMIvalue < 30)
             {
                 lblReview.Text = "You're in the overweight range";
             }
-            if (BMIvalue <=30 && BMIvalue < 40)
+            if (BMIvalue >=30 && BMIvalue < 40)
             {
                 lblReview.Text = "You're in the obese range";
             }

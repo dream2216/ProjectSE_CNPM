@@ -99,5 +99,20 @@ namespace SK_APP_User
           
             
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtAge.Text = "";
+            txtheight.Text = "";
+            txtweight.Text = "";
+            checkfemale.CheckState = CheckState.Unchecked;
+            checkmale.CheckState = CheckState.Unchecked;
+            lblresult.Text = "Result";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
